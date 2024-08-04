@@ -1,0 +1,96 @@
+.d01{
+    background: lightblue;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.d02{
+    font-size: 22px;
+    color: dodgerblue;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: rbgu 4s ease-in-out forwards;
+}
+
+.d03{
+    font-size: 22px;
+    color: dodgerblue;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: rbgu 5s ease-in-out forwards;
+}
+
+.d04{
+    font-size: 22px;
+    color: dodgerblue;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: rbgu 6s ease-in-out forwards;
+}
+
+@keyframes rbgu{
+    0%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+.d001{
+    padding-left: 50px;
+    padding: 33px;
+}
+
+.d00{
+    background: black;
+    padding: 21px;
+    color: white;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.d00 k{
+    color: transparent;
+}
+
+.n{
+    text-align: center;
+}
+
+.n g{
+    color:purple;
+}
+
+.i{
+    text-align: center;
+    border: solid black 1.5px;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.i button{
+    background: orange;
+    color: white;
+    border: solid orange 2px;
+    border-radius: 5px;
+    width: 80%;
+    height:27px;
+}
+
+.i button:focus{
+    background: lightorange;
+}
+
+.i f{
+    color:red;
+}
